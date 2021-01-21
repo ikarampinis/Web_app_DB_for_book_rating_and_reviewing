@@ -1,0 +1,113 @@
+h2{
+    font-family: "Book Antiqua";
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+.page_body{
+  margin: 70px 130px;
+}
+
+.page_body .body_left{
+  background: rgba(247, 242, 233, 0.7);
+  float: left;
+  width: 64%;
+  margin-bottom: 16px;
+  padding: 10px 20px 30px 30px;
+  margin-right: 5px;
+  margin-top: 20px;
+  box-shadow: 0 15px 25px 0 rgba(0, 0, 0, 0.6);
+}
+
+.page_body .body_right{
+  background: rgba(247, 242, 233, 0.3);
+  float: right;
+  width: 32%;
+  margin-bottom: 16px;
+  padding: 10px 30px 30px 30px;
+  margin-top: 20px;
+  margin-left: 5px;
+  box-shadow: 0 15px 25px 0 rgba(0, 0, 0, 0.6);
+}
+
+.page_body .body_right a.active {
+  display:block;
+  width: 350px;
+  background-color: #4d1a00;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 18px;
+  border-radius: 4px;
+  margin: 2px 5px 3px 5px;
+}
+
+.page_body .body_right a.active:hover{
+    background-color: #993300;
+}
+
+.page_body .body_left .search{
+    float: left;
+    margin-top: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width:100%
+}
+
+.page_body .body_left input[type=text] {
+  padding: 6px;
+  font-size: 17px;
+  border: none;
+  height: 50px;
+}
+
+.page_body .body_left .search button {
+    float: right;
+  padding: 6px;
+  background: rgba(77, 26, 0, 0.85);
+  color: white;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+}
+
+.page_body .body_left .search button:hover {
+    background-color: #4d1a00;
+}
+
+.page_body .body_left .book{
+  border: 2px solid black;
+  display: flex;
+  margin-bottom: 13px;
+}
+
+.page_body .body_left .book .book_photo{
+  width: 30%;
+  margin: 10px 10px;
+  padding-top: 5px;
+  padding-left: 5px;
+}
+
+.page_body .body_left .book .book_info{
+  width: 70%;
+  margin: 5px 10px;
+}
+
+
+.button{
+  background:#141111;
+  border:0;
+  color:#fff;
+  padding:10px;
+  font-size:20px;
+  width:100px;
+  display:block;
+  cursor:pointer;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+}

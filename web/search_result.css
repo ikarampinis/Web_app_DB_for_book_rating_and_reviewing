@@ -1,0 +1,57 @@
+h2{
+    font-family: "Book Antiqua";
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+.page_body{
+  margin: 70px 130px;
+}
+
+.page_body .body_left{
+  background: rgba(247, 242, 233, 0.7);
+  float: left;
+  width: 100%;
+  margin-bottom: 16px;
+  padding: 10px 20px 30px 30px;
+  margin-right: 5px;
+  margin-top: 20px;
+  box-shadow: 0 15px 25px 0 rgba(0, 0, 0, 0.6);
+}
+
+.page_body .body_left .book{
+  width: 49%;
+  border: 2px solid black;
+  display: flex;
+  float: left;
+  margin-bottom: 13px;
+  margin-right: 10px;
+  height: 300px;
+}
+
+.page_body .body_left .book .book_photo{
+  width: 30%;
+  margin: 10px 10px;
+  padding-top: 5px;
+  padding-left: 5px;
+}
+
+.page_body .body_left .book .book_info{
+  width: 70%;
+  margin: 5px 10px;
+}
+
+.page_body .body_left .book .book_info .button{
+  background:#141111;
+  border:0;
+  color:#fff;
+  padding:10px;
+  font-size:20px;
+  width:100px;
+  display:block;
+  cursor:pointer;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+}
+

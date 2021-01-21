@@ -1,0 +1,205 @@
+* {box-sizing: border-box;}
+
+body {
+    margin: 0px;
+    padding: 0;
+    background-image: url(images/bgh.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+.header .book-image {
+    position: sticky;
+	position: -webkit-sticky;
+    float: left;
+    margin: 3px 0px -3px 5px;
+}
+
+/* whole header line */
+.header {
+    position: fixed;
+    top:0;
+    width: 100%;
+    overflow: visible;
+    background-color: #f7f2e9;
+    padding: 12px 10px;
+    z-index: 3;
+}
+
+/* buttons in header line */
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+  margin: 2px 5px -2px 5px;
+}
+
+.header #profilepic{
+    color: black;
+    text-align: center;
+    line-height: 25px;
+}
+
+.header a.logo {
+  font-size: 34px;
+  font-weight: bold;
+  font-family: 'Nothing You Could Do', cursive;
+  padding-top: 10px;
+  margin: 2px 5px -2px 5px;
+}
+
+.header a:hover, .header #profilepic:hover {
+  background-color: #4d1a00;
+  color: white;
+  border-radius: 4px;
+}
+
+.header a.active {
+  background-color: #4d1a00;
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+
+#profilepic img {
+    float: left;
+    margin-top: -5px;
+    margin-right: 6px;
+  height: 35px;
+  width: 35px;
+  border-radius:50px;
+}
+
+/* search */
+.search-container {
+    float: left;
+    margin-top: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.header input[type=text] {
+  padding: 6px;
+  font-size: 17px;
+  border: none;
+}
+
+.header .search-container button {
+  float: right;
+  padding: 6px;
+  background: rgba(77, 26, 0, 0.85);
+  color: white;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.header .search-container button:hover {
+    background-color: #4d1a00;
+}
+
+/* screen display */
+@media screen and (max-width: 500px) {
+  .header .search-container {
+     float:none;
+    }
+
+  .header a, .header, .header input[type=text], .header-right, .header .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: auto;
+  }
+
+  .header-right {
+    float: none;
+  }
+
+  .header input[type=text] {
+    border: 1px solid #ccc;
+  }
+}
+
+/* navigation */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 18px;
+  border: none;
+  outline: none;
+  color: black;
+  background-color: #f7f2e9;
+  padding: 12px 16px;
+  margin: 2px 5px -2px 5px;
+}
+
+.dropbtn:hover {
+    background-color: #4d1a00;
+    color: white;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.dropdown-content, .genre {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.genre a{
+    float: none;
+    color: black;
+    text-align: center;
+    padding: 12px 16px;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 6px;
+    border-radius: 4px;
+    display: block;
+    text-align: left;
+    margin: 4px;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    text-align: center;
+    padding: 12px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 25px;
+    border-radius: 4px;
+    display: block;
+    text-align: left;
+    margin: 4px;
+}
+
+.dropdown-content a:hover {
+    background-color: #4d1a00;
+    color: white;
+    border-radius: 4px;
+}
+
+.genre a:hover {
+    text-decoration: underline;
+}
+
+.dropdown:hover .dropdown-content, .dropdown:hover .genre {
+  display: block;
+}

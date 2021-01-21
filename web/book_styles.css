@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+
+h2 {
+    font-family: "Book Antiqua";
+    text-decoration: underline;
+}
+
+h3 {
+    font-family: "Book Antiqua";
+}
+
+#fav-author :target{
+    color:red;
+}
+
+.fa-star{
+  text-shadow: 0 0 3px #000;
+}
+
+.page_body{
+  margin-right: 90px;
+  margin-left: 190px;
+  margin-top: 70px;
+}
+
+.page_body .body_left{
+  background: rgba(247, 242, 233, 0.7);
+  float: left;
+  width: 65%;
+  margin-bottom: 16px;
+  padding: 10px 20px 30px 20px;
+  margin-right: 10px;
+  margin-top: 20px;
+  box-shadow: 0 15px 25px 0 rgba(0, 0, 0, 0.6);
+}
+
+.page_body .body_right{
+  background: rgba(247, 242, 233, 0.3);
+  float: left;
+  width: 25%;
+  margin-bottom: 16px;
+  padding: 10px 30px 30px 30px;
+  margin-top: 20px;
+  margin-left: 10px;
+  box-shadow: 0 15px 25px 0 rgba(0, 0, 0, 0.6);
+}
+
+.page_body .body_left .book{
+  display: flex;
+  margin-bottom: 13px;
+}
+
+.page_body .body_left .book .book_photo{
+  width: 40%;
+  margin: 10px;
+  padding-top: 5px;
+  padding-left: 5px;
+}
+
+.page_body .body_left .book .book_photo img{
+     width:300px; 
+}
+
+.page_body .body_left .book .book_photo .add_list button{
+  border:0;
+  color:#fff;
+  padding:5px;
+  font-size:14px;
+  width:100px;
+  display:inline-block;
+  border-radius: 4px;
+  cursor:pointer;
+}
+
+.page_body .body_left .book .book_photo .submit{
+  background:#141111;
+  border:0;
+  color:#fff;
+  padding:7px;
+  margin-top: 8px;
+  font-size:15px;
+  width:80px;
+  display:block;
+  border-radius: 4px;
+  cursor:pointer;
+}
+
+.page_body .body_left .book .book_info{
+  float: right;
+  display: block;
+  width: 60%;
+  margin: 10px;
+}
+
+.page_body .body_left .book .book_info h2{
+  margin: 10px 0 7px 0;
+  padding: 0;
+}
+
+.page_body .body_left .book .book_info h3{
+  margin: 0 0 10px 0;
+  padding: 0;
+}
+
+.page_body .body_left .book .book_info .details p{
+  margin: 0;
+  width: 70%;
+  display: block;
+}
+
+.page_body .body_left h3{
+  margin-bottom: 0;
+}
+
+.page_body .body_left .Reviews p{
+  margin:0;
+}
+
+.page_body .body_left .Reviews textarea{
+  width: 100%;
+  height: 100px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+}
+
+.page_body .body_left .Reviews button{
+  float: right;
+  background:#141111;
+  border:0;
+  color:#fff;
+  padding:7px;
+  font-size:15px;
+  width: 80px;
+  display:block;
+  border-radius: 4px;
+  cursor:pointer;
+}
+
+.page_body .body_left .The_comments{
+    width: 100%;
+}
+
+.page_body .body_left .Reviews .The_comments .row{
+    width: 90%;
+}
+
+.page_body .body_left .column {
+  float: left;
+  margin-bottom: 16px;
+  padding: 0 8px;
+  width: 100%;
+}
+
+@media screen and (max-width: 650px) {
+  .page_body .body_left .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.page_body .body_left .card {
+    width: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.page_body .body_left .container {
+  padding-top: 1px;
+  padding-left: 16px;
+  padding-right: 16px;
+  width: 100%;
+}
+
+.page_body .body_left .container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.page_body .body_right .suggested{
+  float: left;
+  margin:0;
+  padding: 0 0 0 16px;
+}
+
+.book_info .row{
+    float: left;
+}
+
+#heart {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+#fav {
+    color: red;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.page_body .body_right .suggested img{
+  width: 100px;
+  height: 130px;
+  padding: 0;
+}
+
+.page_body .body_right .suggested a.button{
+  width: 100px;
+  height: 130px;
+  margin: 3px;
+  padding: 0;
+  border: none;
+  outline: none;
+  cursor:pointer;
+}
+
+.ico {
+   border-radius: 50%;
+   cursor: pointer;
+   fill: #232323;
+   transition: .4s;
+   
+}
+
+.liked {
+      transform: scale(1.05) rotate(360deg);
+      background-color: #C62828;
+      padding: 6px;
+      fill: white;
+}

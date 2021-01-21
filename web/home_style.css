@@ -1,0 +1,208 @@
+h2{
+    font-family: "Book Antiqua";
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+.page_body{
+  margin: 70px 130px;
+}
+
+.page_body .body_left{
+  background: rgba(247, 242, 233, 0.7);
+  float: left;
+  width: 64%;
+  margin-bottom: 16px;
+  padding: 10px 20px 30px 30px;
+  margin-right: 5px;
+  margin-top: 20px;
+  box-shadow: 0 15px 25px 0 rgba(0, 0, 0, 0.6);
+}
+
+.page_body .body_right{
+  background: rgba(247, 242, 233, 0.3);
+  float: right;
+  width: 32%;
+  margin-bottom: 16px;
+  padding: 10px 30px 30px 30px;
+  margin-top: 20px;
+  margin-left: 5px;
+  box-shadow: 0 15px 25px 0 rgba(0, 0, 0, 0.6);
+}
+
+
+.page_body .body_left .book{
+  border: 2px solid black;
+  display: flex;
+  margin-bottom: 13px;
+}
+
+.page_body .body_left .book .book_photo{
+  width: 30%;
+  margin: 10px 10px;
+  padding-top: 5px;
+  padding-left: 5px;
+}
+
+.page_body .body_left .book .book_info{
+  width: 70%;
+  margin: 5px 10px;
+}
+
+.page_body .body_left .book .book_info button{
+  background:#141111;
+  border:0;
+  color:#fff;
+  padding:10px;
+  font-size:20px;
+  width:100px;
+  display:block;
+  cursor:pointer;
+  border-radius: 4px;
+}
+
+.page_body .body_left .more{
+  color: white;
+  float: right;
+  margin: 10px 20px 0 0;
+  background:#141111;
+  font-size:15px;
+  padding:5px;
+  width:100px;
+  display:block;
+  cursor:pointer;
+  border-radius: 4px;
+}
+
+.page_body .body_left .Suggestions{
+  border: 2px solid black;
+  display: table-row;
+  padding: 8px 5px;
+}
+
+.page_body .body_left .Suggestions .Suggestion-button{
+  width: 20%;
+  border-color: transparent;
+  background-color: inherit;
+  box-sizing: border-box;
+  height: 202px;
+  padding: 0;
+  margin: 0 17px;
+  cursor:pointer;
+  outline: none;
+  border-radius: 4px;
+}
+
+.page_body .body_left .Suggestions .Suggestion-button p{
+  text-align: center;
+  color: white;
+  background-color: black;
+  margin: 1;
+  padding: 2px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border-radius: 4px;
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+
+.page_body .body_right img {
+  vertical-align: middle;
+}
+
+.page_body .body_right .container {
+  position: relative;
+}
+
+.page_body .body_right .container .mySlides {
+  display: none;
+  background: white;
+}
+
+.page_body .body_right .container .cursor {
+  cursor: pointer;
+}
+
+.page_body .body_right .container .prev,
+.page_body .body_right .container .next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.page_body .body_right .container .next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.page_body .body_right .container .prev:hover,
+.page_body .body_right .container .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+.page_body .body_right .container .numbertext {
+  color: black;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.page_body .body_right .container .caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.page_body .body_right .container .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.page_body .body_right .container .column {
+  float: left;
+  width: 16.66%;
+  margin: 0 3px;
+  background: white;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+#round img {
+    border-radius: 90px;
+    height: 200px;
+    width: 100%;
+}
+
+.fa-star{
+  text-shadow: 0 0 3px #000;
+}
+
+#loading {
+position: fixed;
+width: 100%;
+height: 100vh;
+background: #fff url(images/loading.gif) no-repeat center center;
+z-index: 9999;
+}

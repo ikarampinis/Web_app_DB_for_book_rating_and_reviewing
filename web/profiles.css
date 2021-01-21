@@ -1,0 +1,215 @@
+.page_body{
+  margin: 70px 100px;
+}
+
+.page_body .body_left{
+  background:rgba(247, 242, 233,0.7);
+  float: left;
+  width: 65%;
+  margin-bottom: 16px;
+  padding: 10px 20px 30px 30px;
+  margin-right: 10px;
+  margin-top: 20px;
+  box-shadow: 0 15px 25px 0 rgba(0, 0, 0, 0.6);
+}
+
+.page_body .body_right a.active {
+  display:block;
+  width: 350px;
+  background-color: #4d1a00;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 18px;
+  border-radius: 4px;
+  margin: 2px 5px 3px 5px;
+}
+
+.page_body .body_right a.active:hover{
+    background-color: #993300;
+}
+
+.page_body .body_left .column {
+  float: left;
+  margin-bottom: 16px;
+  padding: 0 8px;
+  width: 33%;
+}
+.page_body .body_left .column_2 {
+  float: left;
+  margin-bottom: 16px;
+  padding: 0 8px;
+  width: 100%;
+}
+
+@media screen and (max-width: 650px) {
+  .page_body .body_left .column, .page_body .body_left .column_2{
+    width: 100%;
+    display: block;
+  }
+}
+
+.page_body .body_left .card{
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 100%;
+}
+
+.page_body .body_left .card_2 {
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 100%;
+}
+
+.page_body .body_left .container{
+  padding-top: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 90%;
+}
+
+.page_body .body_left .container_2 {
+  padding-top: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 90%;
+}
+
+.page_body .body_left .container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.page_body .body_right{
+  background:rgba(247, 242, 233,0.5);
+  float: right;
+  width: 31%;
+  margin-bottom: 16px;
+  padding: 10px 30px 30px 30px;
+  margin-top: 20px;
+  margin-left: 10px;
+  box-shadow: 0 15px 25px 0 rgba(0, 0, 0, 0.6);
+}
+
+.page_body .body_right .Suggestions{
+  display: table-row;
+  padding: 4px 5px;
+}
+
+.page_body .body_right .Suggestions .Suggestion-button{
+  width: 25%;
+  border-color: transparent;
+  background-color: inherit;
+  box-sizing: table-row;
+  height: 202px;
+  padding: 0;
+  margin: 0 25px;
+  cursor:pointer;
+  outline: none;
+  border-radius: 4px;
+}
+
+.page_body .body_right .Suggestions .Suggestion-button p{
+  text-align: center;
+  width: 125%;
+  color: white;
+  background-color: black;
+  margin: 1px;
+  padding: 2px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border-radius: 4px;
+  -webkit-line-clamp: 3;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+
+.page_body .body_right .top_rated{
+  border:2px solid black;
+  margin-bottom: 4px;
+  display: flex;
+}
+
+.page_body .body_right .top_rated img{
+    float: left;
+    width: 80px;
+    height: 120px;
+}
+
+.page_body .body_right .top_rated .books {
+  width: 30%;
+  margin: 5px 5px 5px 5px;
+  padding-top: 2px;
+  padding-left: 2px;
+}
+.fa-star{
+  text-shadow: 0 0 3px #000;
+}
+
+.fa-plus-circle{
+    color: white;
+}
+
+.page_body .body_right .top_rated .books .information {
+  width: 70%;
+  margin: 10px 10px 10px 10px;
+}
+
+.prof_pic {
+  position:relative;
+  float:left;
+  margin-left: 10px;
+  margin-top: 10px;
+  padding-right: 20px;
+  border-radius: 4px;
+}
+
+.page_body .body_left .apic{
+  position:relative;
+  float:left;
+  margin-left: 5px;
+  margin-top: 5px;
+  padding-right: 10px;
+  border-radius: 50%;
+}
+
+.text_right {
+  text-align:right;
+}
+
+#HASH {
+  display: flex;
+  justify-content: space-between;
+}
+
+.monospace {
+  font-family: "Lucida Console", Courier, monospace;
+}
+.serif {
+  font-family: "Book Antiqua";
+}
+
+.page_body .body_left .row{
+  border-bottom: 2px solid black;
+}
+
+#round img{
+  border-radius: 90px;
+}
+
+.page_body .body_left span{
+    float: right;
+    font-size: 10px;
+}
+
